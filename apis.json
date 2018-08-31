@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - OrgHunter",
+	"description": "This is a repository of orghunter APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/orghunter.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://orghunter.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "OrgHunter",
+			"x-api-slug": "orghunter",
+			"description": "OrgHunter.com is the number one destination for online charity and donor matching services. Every charity deserves the opportunity to be discovered regardless of size or financial status.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28476-org-hunter.jpg",
+			"humanURL": "http://orghunter.com",
+			"baseURL": "https://data.orghunter.com//",
+			"tags": "OrgHunter",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/orghunter/master/_listings/orghunter/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "OrgHunter",
+	"include": [
+		{
+			"name": "OrgHunter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/orghunter/master/_listings/orghunter/apis.yaml"
+		}
+	]
+}
